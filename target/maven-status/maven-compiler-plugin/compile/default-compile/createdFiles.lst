@@ -1,0 +1,6 @@
+amazonTest\MyTest.class
+commonActions\UIActions.class
+OR\HomePage.class
+OR\ProductLandingPage.class
+commonActions\Constants.class
+commonActions\UIActionsImp.class

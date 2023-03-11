@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T19:16:37Z" name="Suite" finished-at="2022-05-01T19:17:05Z" duration-ms="28010">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T19:16:37Z" name="Test" finished-at="2022-05-01T19:17:05Z" duration-ms="28010">
+      <class name="amazonTest.MyTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:16:37Z" name="testSetup" finished-at="2022-05-01T19:16:44Z" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="Homepage_NavigationActions()[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:16:44Z" name="Homepage_NavigationActions" finished-at="2022-05-01T19:16:52Z" duration-ms="7761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage_NavigationActions -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:16:52Z" name="getResult" finished-at="2022-05-01T19:16:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepage_NavigationActions status=SUCCESS method=MyTest.Homepage_NavigationActions()[pri:0, instance:amazonTest.MyTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProductLandingPage()[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:16:52Z" name="ProductLandingPage" finished-at="2022-05-01T19:17:04Z" depends-on-methods="amazonTest.MyTest.Homepage_NavigationActions" duration-ms="11490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductLandingPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:17:04Z" name="getResult" finished-at="2022-05-01T19:17:04Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductLandingPage status=SUCCESS method=MyTest.ProductLandingPage()[pri:0, instance:amazonTest.MyTest@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardonw()[pri:0, instance:amazonTest.MyTest@4efac082]" started-at="2022-05-01T19:17:04Z" name="teardonw" finished-at="2022-05-01T19:17:05Z" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardonw -->
+      </class> <!-- amazonTest.MyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
